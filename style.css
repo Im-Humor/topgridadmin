@@ -36,8 +36,40 @@ li {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: white;
-    grid-template-columns: 1fr 10fr 1fr 1fr 3fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 10fr 4fr;
+    grid-template-rows: 2fr 3fr;
+    align-items: center;
+}
+
+.search-bar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.search-bar input {
+    height: 1.5rem;
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+.account-header {
+    display: grid;
+    grid-column: 2 / 3;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.bell-container {
+    grid-column: 1 / 2;
+}
+
+.account-img-container {
+    grid-column: 2 / 3;
+}
+
+.username-container {
+    grid-column: 3 / 4;
 }
 
 .main-content {
