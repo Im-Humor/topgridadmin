@@ -12,6 +12,8 @@ body {
 
 html {
     background-color: rgb(186, 186, 186);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
 }
 
 li {
@@ -132,13 +134,19 @@ li {
 
 .project-card {
     display: grid;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 4fr 1fr;
     border-radius: 10px;
     border-left-width: 5px;
     border-left-style: solid;
     border-left-color: orange;
     background-color: white;
     box-shadow: 5px 5px 5px grey;
+}
+
+.card-title {
+    display: grid;
+    align-items: end;
+    font-weight: bold;
 }
 
 .card-actions {
